@@ -13,14 +13,4 @@
 .high-container{
     display: flex;
     flex-direction: row;
-    height: 600px;
 }
-
-
-.highlight{
-    display: flex;
-    width: 300px;
-
-  
-}
-

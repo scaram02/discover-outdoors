@@ -4,17 +4,17 @@ export default class Mountain extends Component {
     render() {
         return (
             <div>
-            <div class="high-container">
-             <div class="higlight">
-             <div>
-             <h1>{this.props.title}</h1>
+
+            <div class="high-container row text-center my-5">
+             <div class="higlight col-md-6">
+             
+             <h2>{this.props.title}</h2>
+            
+             <h3>{this.props.descrip}</h3>
+    </div>
              </div>
-             <div>
-             <h2>{this.props.descrip}</h2>
              </div>
-             </div>
-             </div>
-            </div>
+
         )
     }
 }
