@@ -1,0 +1,26 @@
+.landing {
+    height: 900px;
+    background-image: url("../images/home2.jpg");
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.high-container{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+}
+
+
+.highlight{
+    display: flex;
+    width: 300px;
+
+  
+}
+
